@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07F22653B08B247FC915FEDD /* Pods_ReceiptLottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8969203C3FE425B5343BD488 /* Pods_ReceiptLottery.framework */; };
+		8D1FEE4B27F5867C0098B7C4 /* Scraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FEE4A27F5867C0098B7C4 /* Scraper.swift */; };
+		8D1FEE4D27F5BAEE0098B7C4 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FEE4C27F5BAEE0098B7C4 /* Award.swift */; };
 		8D24DE9227F48025006A323E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24DE9127F48025006A323E /* AppDelegate.swift */; };
 		8D24DE9427F48025006A323E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24DE9327F48025006A323E /* SceneDelegate.swift */; };
 		8D24DE9627F48025006A323E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24DE9527F48025006A323E /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		32A25DD312634A516601DDBA /* Pods-ReceiptLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptLottery.release.xcconfig"; path = "Target Support Files/Pods-ReceiptLottery/Pods-ReceiptLottery.release.xcconfig"; sourceTree = "<group>"; };
 		8969203C3FE425B5343BD488 /* Pods_ReceiptLottery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReceiptLottery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1FEE4A27F5867C0098B7C4 /* Scraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scraper.swift; sourceTree = "<group>"; };
+		8D1FEE4C27F5BAEE0098B7C4 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		8D24DE8E27F48025006A323E /* ReceiptLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D24DE9127F48025006A323E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D24DE9327F48025006A323E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				8D24DE9A27F48026006A323E /* Assets.xcassets */,
 				8D24DE9C27F48026006A323E /* LaunchScreen.storyboard */,
 				8D24DE9F27F48026006A323E /* Info.plist */,
+				8D1FEE4A27F5867C0098B7C4 /* Scraper.swift */,
+				8D1FEE4C27F5BAEE0098B7C4 /* Award.swift */,
 			);
 			path = ReceiptLottery;
 			sourceTree = "<group>";
@@ -206,8 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1FEE4B27F5867C0098B7C4 /* Scraper.swift in Sources */,
 				8D24DE9627F48025006A323E /* ViewController.swift in Sources */,
 				8D24DE9227F48025006A323E /* AppDelegate.swift in Sources */,
+				8D1FEE4D27F5BAEE0098B7C4 /* Award.swift in Sources */,
 				8D24DE9427F48025006A323E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
